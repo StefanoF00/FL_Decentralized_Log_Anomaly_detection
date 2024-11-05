@@ -8,5 +8,9 @@ This first framework, based on FL algorithm __AdaFed__, relies on a central serv
 ## DecAdaLightLog Algorithm
 It is a framework that, based on finite-time consensus protocol for multi-agent systems and Physics-Informed Neural Networks, has a totally distributed nature. It doesnt depend on a central coordinating server that represents a point of failure for cyber-physical attacks. Given the innovative contribution and the surprising results of this algorithm, it is planned to submit the complete work for further publication in a scientific journal.
 
+## Get Started
+* Import HDFS.log file into the ```/Raw_data_logs/HDFS``` folder. Due to its high dimension (1.58GB) it is not present in the repository, but can be found on [Kaggle](https://www.kaggle.com/datasets/ayenuryrr/loghub-hdfs-hadoop-distributed-file-system-data).
+* Follow all the cells in ```/Log_anomaly_Detection/main.ipynb``` file, that incorporates client definition, log processing and training of FedAvg, AdaLightLog, DecAdaLightLog algorithms.
+
 
 
